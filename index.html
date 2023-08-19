@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    
+    <title>Seguros Ecija</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="assets/css/templatemo.css"/>
+
+    <link rel="stylesheet" href="assets/css/custom.css"/>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap"/>
+
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css"/>
+
+    <link rel="icon" type="image/png" href="assets/img/icon.png"/>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-block fs-2" id="templatemo_nav_top">
+        
+        <div class="container text-dark">
+            
+            <div class="w-100 d-flex justify-content-between">
+                
+                <div>
+                
+                    <i class="fa fa-envelope mx-2"></i>
+                
+                    <a class="navbar-sm-brand text-dark text-decoration-none" href="mailto:seguros.ecija@hotmail.com">seguros.ecija@hotmail.com</a>
+                
+                    <i class="fa fa-phone mx-2"></i>
+                
+                    <a class="navbar-sm-brand text-dark text-decoration-none" href="tel:+34 692 00 75 03">+34 692 00 75 03</a>
+                
+                </div>
+                
+                <div>
+                
+                    <a class="text-dark" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                
+                    <a class="text-dark" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                
+                    <a class="text-dark" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                
+                    <a class="text-dark" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+    
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+       
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                
+                Seguros Ecija
+
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            
+                <span class="navbar-toggler-icon"></span>
+            
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+            
+                <div class="flex-fill">
+            
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+            
+                        <li class="nav-item">
+            
+                            <a class="nav-link" href="index.html"><h2>Inicio</h2></a>
+            
+                        </li>
+                        
+                        <li class="nav-item">
+            
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal"><h2>Contacto</h2></a>
+            
+                        </li>
+            
+                    </ul>
+            
+                </div>
+                        
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section class="container py-5">
+
+        <div class="row text-center pt-3">
+
+            <div class="m-auto">
+
+                <select class="form-select" onchange="verSeguro(this.value)" name="seguros" id="seguros">
+
+                <option value="">Seleccione un seguro</option>
+                
+                <option value="1">Hogar</option>
+                
+                <option value="2">Decesos</option>
+
+                <option value="3">Coche</option>
+
+                <option value="4">Comunidad</option>
+
+                <option value="5">Vida</option>
+
+                <option value="6">Salud</option>
+
+                <option value="7">Mascotas</option>
+
+                <option value="8">RC</option>
+
+                <option value="9">Comercio</option>
+
+                <option value="10">Pymes</option>
+
+                </select>
+
+                <div style="padding-top: 20px;" id="contenido">
+
+                </div>
+
+            </div>
+
+        </div>       
+
+    </section>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    
+        <div class="modal-dialog">
+        
+            <div class="modal-content">
+            
+                <div class="modal-header">
+                
+                    <h2 class="modal-title" id="exampleModalLabel">Contacto</h2>
+                
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+                </div>
+            
+                <div class="modal-body">
+                
+                    <h2>34 692 00 75 03</h2>
+                
+                    <a class="fs-2" href="mailto:seguros.ecija@hotmail.com">seguros.ecija@hotmail.com</a>
+
+                </div>
+            
+                <div class="modal-footer">
+                
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+
+    </div>
+
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="assets/js/templatemo.min.js"></script>
+    
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
